@@ -1,4 +1,4 @@
-import UserCV from "./Components/UserCV";
+import UserCV from "./UserCV";
 function App() {
   return (
     <div>
