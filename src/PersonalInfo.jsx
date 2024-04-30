@@ -1,14 +1,13 @@
 import React from 'react'
 
-const PersonalInfo = () => {
-  return (
-    <div>
-    <p>Name : Ayxan</p>
-    <p>Surname : Mustafayev</p>
-    <p>Age : 19</p>    
-    <p>Address :Baku, Hesenbey Zerdabi 3166</p>
-    </div>
-  )
+const PersonalInfo = (props) => {
+    return (
+        <div>
+            <p>{props.age}</p>
+            <p>{props.info}</p>
+            <p>{props.phone}</p>
+        </div>
+    )
 }
 
 export default PersonalInfo

@@ -1,10 +1,12 @@
-import UserCV from "./UserCV";
-function App() {
+import React from 'react'
+import Profile from './Profile'
+
+const App = () => {
   return (
     <div>
-        <UserCV/>
+    <Profile/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
