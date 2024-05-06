@@ -1,0 +1,23 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "description": "It's my npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "prettier:fix": "prettier \"index.js\" --write",
+    "prettier2:fix": "prettier \"index.js\"",
+    "build": "webpack"
+  },
+  "author": "Ayxan",
+  "license": "ISC",
+  "dependencies": {
+    "dayjs": "^1.11.11",
+    "prettier": "^3.2.5"
+  },
+  "devDependencies": {
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
